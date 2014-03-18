@@ -21,6 +21,7 @@
 		709B11BE18D8F1DE003D6CDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709B11A018D8F1DE003D6CDE /* UIKit.framework */; };
 		709B11C618D8F1DE003D6CDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709B11C418D8F1DE003D6CDE /* InfoPlist.strings */; };
 		709B11C818D8F1DE003D6CDE /* MagicalCreaturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B11C718D8F1DE003D6CDE /* MagicalCreaturesTests.m */; };
+		709B11D318D8F394003D6CDE /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B11D218D8F394003D6CDE /* MagicalCreature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		709B11C318D8F1DE003D6CDE /* MagicalCreaturesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicalCreaturesTests-Info.plist"; sourceTree = "<group>"; };
 		709B11C518D8F1DE003D6CDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		709B11C718D8F1DE003D6CDE /* MagicalCreaturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicalCreaturesTests.m; sourceTree = "<group>"; };
+		709B11D118D8F394003D6CDE /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
+		709B11D218D8F394003D6CDE /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				709B11AB18D8F1DE003D6CDE /* CMJAppDelegate.h */,
 				709B11AC18D8F1DE003D6CDE /* CMJAppDelegate.m */,
 				709B11AE18D8F1DE003D6CDE /* Main.storyboard */,
+				709B11D118D8F394003D6CDE /* MagicalCreature.h */,
+				709B11D218D8F394003D6CDE /* MagicalCreature.m */,
 				709B11B118D8F1DE003D6CDE /* CMJViewController.h */,
 				709B11B218D8F1DE003D6CDE /* CMJViewController.m */,
 				709B11B418D8F1DE003D6CDE /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				709B11B318D8F1DE003D6CDE /* CMJViewController.m in Sources */,
+				709B11D318D8F394003D6CDE /* MagicalCreature.m in Sources */,
 				709B11A918D8F1DE003D6CDE /* main.m in Sources */,
 				709B11AD18D8F1DE003D6CDE /* CMJAppDelegate.m in Sources */,
 			);
